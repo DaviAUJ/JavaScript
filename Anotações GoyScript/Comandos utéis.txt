@@ -1,0 +1,10 @@
+window.:
+    alert(x) - Cria uma caixa no navegador com a string x
+
+    confirm(x) - Cria uma caixa no navegador com a string x e dois botões um para confirmar e outro para cancelar
+
+    prompt(x) - Cria uma caixa no navegador com um espaço para inserção de dados
+
+document.:
+    write(x) - Escreve no site a string x
+

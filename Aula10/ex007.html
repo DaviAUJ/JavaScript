@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    <style>
+        body {
+            font: normal 18pt Arial;
+        }
+
+        input.caixaTexto {
+            font: normal 14pt Arial;
+            width: 100px;
+        }
+
+        input#buttonSomar {
+            font: normal Arial;
+            width: 60px;
+            height: 22px;
+        } 
+
+        div#resultado {
+            margin-top: 20px;
+            font: normal 24pt arial
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+    <input type="number" class="caixaTexto" name="txtn1" id="txtn1"> x
+    <input type="number" class="caixaTexto" name="txtn2" id="txtn2">
+    <input type="button" value="Somar" id="buttonSomar" onclick="somar()">
+
+    <div id='resultado'>Resultado:</div>
+
+    <script>
+        function somar() {
+            var tn1 = window.document.querySelector('input#txtn1')
+            var tn2 = window.document.querySelector('input#txtn2')
+            var resultado = window.document.querySelector('div#resultado')
+
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var multi = n1 * n2
+
+            resultado.innerText += ` ${multi}`
+        }
+    </script>
+</body>
+</html>

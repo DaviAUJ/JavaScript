@@ -1,0 +1,8 @@
+Ponto flutuante:
+    n.toFixed(x) - Faz o número n ter obrigatoriamente um número x de casas decimais e retorna como string
+
+    n.toFixed(x).replace('.', ',') - Troca o . pela ,
+
+Dinheiro:
+    n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - Transforma o número n para o formato monetário(Pode trocar o BRL por outras moedas também,
+    Ex.: USD, EUR, GBP, KRW, JPY)

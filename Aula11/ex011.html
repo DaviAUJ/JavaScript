@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Países</title>
+    <style>
+        body {
+            font: normal Arial;
+        }
+
+        input#botao {
+            margin-left: 10px;
+        }
+
+        div#res {
+            font: normal 16pt Arial;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Sistema de multas</h1>
+    <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" id="botao" onclick="verificar()">
+    <div id="res"></div>
+
+    <script>
+        function verificar() {
+            var txtpais = window.document.querySelector("input#txtpais")
+            var resultado = window.document.querySelector("div#res")
+            var pais = txtpais.value
+            
+            resultado.innerHTML = `Seu país: ${pais}`
+
+            if(pais == "Kekistão") {
+                resultado.innerHTML += "<p>Você é <strong>esquizofrênico</strong>!</p>"
+            } else {
+                resultado.innerHTML += "<p>Você é normal!</p>"
+            }
+            
+        }
+    </script>
+</body>
+</html>

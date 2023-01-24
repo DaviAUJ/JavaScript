@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos Contar!</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar!</h1>
+    </header>
+
+    <section id="sector">
+        <div id="inicio">
+            Início: <input type="number" id="inicio" class="caixa">
+        </div> 
+        
+        <div>
+            Fim: <input type="number" id="fim" class="caixa">
+        </div>
+        
+        <div id="passo">
+            Passo: <input type="number" id="passo" class="caixa">
+        </div>
+
+        <div id="botao" onclick="mostrarResultado()">
+            <input type="button" value="Calcular" style="width: 120px;">
+            <hr>
+        </div>
+
+        <div id="contagem">
+            <p id="contagem">Calculando. . .</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;PigasFromPigas</p>
+    </footer>
+
+    <script src="roteiro.js"></script>
+</body>
+</html>

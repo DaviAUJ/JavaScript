@@ -1,0 +1,24 @@
+JavaScript: 
+    // Comentário
+
+    /* Comentário */
+    
+    /* Comentário
+    Linha 2
+    Linha 3
+    ...
+    Linha x
+    */
+
+HTML:
+    <!-- Comentário -->
+
+CSS:
+    /* Comentário */
+
+    /* Comentário
+    Linha 2
+    Linha 3
+    ...
+    Linha x
+    */

@@ -1,0 +1,9 @@
+ANÁLISE:
+    x.length - Retorna o número de caracteres na string
+
+TRANSFORMAÇÃO:
+    x.toUpperCase() - Retorna a string com apenas letras maiúsculas
+
+    x.toLowerCase() - Retorna a string com apenas letras minúsculas
+
+    x.replace('y', 'z') - Retorna a string x com os caracteres y substituídos por z

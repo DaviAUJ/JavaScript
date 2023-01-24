@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <div id="cima">
+            Ano de nascimento: <input type="number" id="nascimento">
+        </div> 
+        
+        <div>
+            Sexo: 
+            <input type="radio" name="opcao" value="Masculino" checked> Masculino
+            <input type="radio" name="opcao" value="Feminino"> Feminino
+        </div>
+
+        <div onclick="verificar()">
+            <input type="button" value="Verificar">
+        </div>
+
+        <div id="divImagem">
+        <p id=txtImagem>Preencha os dados acima para ver o resultado!</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; PigasFromPigas</p>
+    </footer>
+
+    <script src="roteiro.js"></script>
+</body>
+</html>

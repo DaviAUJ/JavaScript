@@ -1,0 +1,9 @@
+(Number.)parseInt(): Transforma o tipo para inteiro
+
+(Number.)parseFloat(): Transforma o tipo para decimal
+
+Number(): Transforma o tipo para inteiro ou decimal dependendo do caso
+
+String(): Transforma o tipo para uma string
+
+.toString(): Transforma o tipo para uma string
