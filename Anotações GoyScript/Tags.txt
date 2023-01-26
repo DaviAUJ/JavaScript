@@ -1,9 +1,0 @@
-<strong>x</strong> - Deixa x em negrito
-
-<br/> - Funciona do mesmo jeito que \n no python lol
-
-<h1>x</h1> - Cabeçalho
-
-<p>x</p> - Parágrafo
-
-<input type="Tipo do dado"> - Cria uma caixa para inserção de dados

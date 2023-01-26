@@ -1,7 +1,7 @@
 var pais = "Russia"
 
-if(pais == "Kekistão") {
-    console.log("Esquizofrênico!")
+if(pais == "Brasil") {
+    console.log("Seu país é o Brasil")
 } else {
-    console.log("Normal!")
+    console.log("Seu país não é o Brasil")
 }

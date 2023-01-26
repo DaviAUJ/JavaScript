@@ -12,5 +12,5 @@ if(hora < 6 || hora === 24) {
 } else if(hora < 24) {
     console.log("Boa noite!")
 } else {
-    console.log("Essa hora não existe :TheRockSobrancelha:")
+    console.log("Essa hora não existe")
 }

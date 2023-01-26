@@ -29,9 +29,3 @@ function carregar() {
         msg.innerHTML = `Agora são ${tempo} horas da ${periodo}.`
     }
 }
-
-function clicar() {
-    window.document.body.remove()
-    window.document.write("VIADO")
-    window.document.body.style.font = "normal 100px arial"
-}
